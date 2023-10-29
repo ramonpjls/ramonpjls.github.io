@@ -11,7 +11,7 @@ const config = {
     },
   },
   social: {
-    linkedin: 'https://www.linkedin.com/in/ramon-padilla-825644146/',
+    linkedin: 'ramon-padilla-825644146/',
     twitter: 'RamonPdllx',
     mastodon: '',
     facebook: '',
@@ -29,19 +29,17 @@ const config = {
     email: 'ramonpjls@gmail.com',
   },
   resume: {
-    fileUrl:
-      'https://drive.google.com/file/d/1GSBvfar-W7dqjynREfvgRwKM_Xu0kFJS/view?usp=sharing', // Puedes proporcionar la URL de su currículum si lo tienes en línea.
+    fileUrl: '', // Puedes proporcionar la URL de su currículum si lo tienes en línea.
   },
   skills: [
     'JavaScript',
-    'Python',
+    '.NET',
     'Relation and non-relational DB',
     'Microservices',
-    '.NET',
   ],
   experiences: [
     {
-      company: 'BMA consultores',
+      company: 'Cerveceria Nacional Dominicana',
       position: 'Web Developer',
       from: 'Jun/2021',
       to: 'Actual',
@@ -72,64 +70,104 @@ const config = {
       to: 'Actual',
     },
   ],
-  // ... Otras secciones de tu archivo de configuración themeConfig: {
-  defaultTheme: 'light',
 
-  // Hides the theme change switch
-  // Useful if you want to support a single color mode
-  disableSwitch: false,
-
-  // Should use the prefers-color-scheme media-query,
-  // using user system preferences, instead of the hardcoded defaultTheme
-  respectPrefersColorScheme: true,
-
-  // Hide the ring in Profile picture
-  hideAvatarRing: false,
-
-  // Available themes. To remove any theme, exclude from here.
-  themes: [
-    'light',
-    'dark',
-    'cupcake',
-    'bumblebee',
-    'emerald',
-    'corporate',
-    'synthwave',
-    'retro',
-    'cyberpunk',
-    'valentine',
-    'halloween',
-    'garden',
-    'forest',
-    'aqua',
-    'lofi',
-    'pastel',
-    'fantasy',
-    'wireframe',
-    'black',
-    'luxury',
-    'dracula',
-    'cmyk',
-    'autumn',
-    'business',
-    'acid',
-    'lemonade',
-    'night',
-    'coffee',
-    'winter',
-    'procyon',
+  // To hide the `My Projects` section, keep it empty.
+  externalProjects: [
+    // {
+    //   title: 'Project Name',
+    //   description:
+    //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+    //   imageUrl: 'https://via.placeholder.com/250x250',
+    //   link: 'https://example.com',
+    // },
+    // {
+    //   title: 'Project Name',
+    //   description:
+    //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+    //   imageUrl: 'https://via.placeholder.com/250x250',
+    //   link: 'https://example.com',
+    // },
   ],
-
-  // Custom theme
-  customTheme: {
-    primary: '#fc055b',
-    secondary: '#219aaf',
-    accent: '#e8d03a',
-    neutral: '#2A2730',
-    'base-100': '#E3E3ED',
-    '--rounded-box': '3rem',
-    '--rounded-btn': '3rem',
+  // Display blog posts from your medium or dev account. (Optional)
+  blog: {
+    // source: 'dev', // medium | dev
+    // username: 'arifszn', // to hide blog section, keep it empty
+    // limit: 2, // How many posts to display. Max is 10.
   },
+  googleAnalytics: {
+    id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
+  },
+  // Track visitor interaction and behavior. https://www.hotjar.com
+  hotjar: {
+    id: '',
+    snippetVersion: 6,
+  },
+  themeConfig: {
+    defaultTheme: 'wireframe',
+
+    // Hides the switch in the navbar
+    // Useful if you want to support a single color mode
+    disableSwitch: false,
+
+    // Should use the prefers-color-scheme media-query,
+    // using user system preferences, instead of the hardcoded defaultTheme
+    respectPrefersColorScheme: false,
+
+    // Hide the ring in Profile picture
+    hideAvatarRing: false,
+
+    // Available themes. To remove any theme, exclude from here.
+    themes: [
+      'light',
+      'dark',
+      'cupcake',
+      'bumblebee',
+      'emerald',
+      'corporate',
+      'synthwave',
+      'retro',
+      'cyberpunk',
+      'valentine',
+      'halloween',
+      'garden',
+      'forest',
+      'aqua',
+      'lofi',
+      'pastel',
+      'fantasy',
+      'wireframe',
+      'black',
+      'luxury',
+      'dracula',
+      'cmyk',
+      'autumn',
+      'business',
+      'acid',
+      'lemonade',
+      'night',
+      'coffee',
+      'winter',
+      'procyon',
+    ],
+
+    // Custom theme
+    customTheme: {
+      primary: '#fc055b',
+      secondary: '#219aaf',
+      accent: '#e8d03a',
+      neutral: '#2A2730',
+      'base-100': '#E3E3ED',
+      '--rounded-box': '3rem',
+      '--rounded-btn': '3rem',
+    },
+  },
+
+  // Optional Footer. Supports plain text or HTML.
+  footer: `Made with <a 
+      class="text-primary" href="https://github.com/arifszn/gitprofile"
+      target="_blank"
+      rel="noreferrer"
+    >GitProfile</a> and ☕❤️`,
 };
 
 export default config;
