@@ -29,7 +29,7 @@ const config = {
     email: 'ramonpjls@gmail.com',
   },
   resume: {
-    fileUrl: '', // Puedes proporcionar la URL de su currículum si lo tienes en línea.
+    fileUrl: 'https://drive.google.com/file/d/1wosoG94EJSPgiwnZ4xJbx9apRNO8cJc6/view?usp=sharing', // Puedes proporcionar la URL de su currículum si lo tienes en línea.
   },
   skills: [
     'JavaScript',
@@ -42,7 +42,7 @@ const config = {
       company: 'Cerveceria Nacional Dominicana',
       position: 'Web Developer',
       from: 'Jun/2021',
-      to: 'Actual',
+      to: 'Dec/2023',
       companyLink: '',
     },
     {
