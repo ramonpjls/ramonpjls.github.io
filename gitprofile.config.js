@@ -29,7 +29,7 @@ const config = {
     email: 'ramonpjls@gmail.com',
   },
   resume: {
-    fileUrl: 'https://drive.google.com/file/d/1wosoG94EJSPgiwnZ4xJbx9apRNO8cJc6/view?usp=sharing', // Puedes proporcionar la URL de su currículum si lo tienes en línea.
+    fileUrl: 'https://drive.google.com/file/d/1GSBvfar-W7dqjynREfvgRwKM_Xu0kFJS/view?usp=drive_link', // Puedes proporcionar la URL de su currículum si lo tienes en línea.
   },
   skills: [
     'JavaScript',
@@ -51,7 +51,7 @@ const config = {
       position: 'Web Developer',
       from: 'Jan/2022',
       to: 'Actual',
-      companyLink: '', // Agrega el enlace de la empresa si lo tienes.
+      companyLink: 'https://ogtic.gob.do/', // Agrega el enlace de la empresa si lo tienes.
     },
   ],
   certifications: [
