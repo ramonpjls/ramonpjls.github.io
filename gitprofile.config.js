@@ -3,10 +3,10 @@
 const config = {
   github: {
     username: 'ramonpjls', // Cambia esto al nombre de usuario de GitHub de Ramon
-    sortBy: 'stars', // stars | updated
-    limit: 10, // How many projects to display.
+    sortBy: 'updated', // stars | updated
+    limit: 6, // How many projects to display.
     exclude: {
-      forks: false, // Forked projects will not be displayed if set to true.
+      forks: true, // Forked projects will not be displayed if set to true.
       projects: ['ramonpjls.github.io', 'ramonpjls'], // Estos proyectos no se mostrarán. Ejemplo: ['mi-proyecto1', 'mi-proyecto2']
     },
   },
@@ -29,13 +29,23 @@ const config = {
     email: 'ramonpjls@gmail.com',
   },
   resume: {
-    fileUrl: 'https://drive.google.com/file/d/1GSBvfar-W7dqjynREfvgRwKM_Xu0kFJS/view?usp=drive_link', // Puedes proporcionar la URL de su currículum si lo tienes en línea.
+    fileUrl: 'https://drive.google.com/file/d/151c1zI0XX8Fj9XG2DA64oqM2Pvds6mDu/view?usp=drive_link', // Puedes proporcionar la URL de su currículum si lo tienes en línea.
   },
   skills: [
     'JavaScript',
     '.NET',
-    'Relation and non-relational DB',
-    'Microservices',
+    'Kotlin',
+    'React.js',
+    'Next.js',
+    'Node.js',
+    'Nest.js',
+    'MongoDB',
+    'MySQL',
+    'PostgreSQL',
+    'Git',
+    'Docker',
+    'CSS',
+    'Tailwind'
   ],
   experiences: [
     {
@@ -49,7 +59,7 @@ const config = {
       company:
         'Oficina Gubernamental de la Tecnologia de la informacion y comunicacion (OGTIC)',
       position: 'Web Developer',
-      from: 'Jan/2022',
+      from: 'Apr/2023',
       to: 'Actual',
       companyLink: 'https://ogtic.gob.do/', // Agrega el enlace de la empresa si lo tienes.
     },
@@ -103,7 +113,7 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'coffee',
+    defaultTheme: 'dark',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -111,7 +121,7 @@ const config = {
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
-    respectPrefersColorScheme: false,
+    respectPrefersColorScheme: true,
 
     // Hide the ring in Profile picture
     hideAvatarRing: false,
