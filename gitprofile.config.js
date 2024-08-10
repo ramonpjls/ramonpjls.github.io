@@ -24,7 +24,7 @@ const config = {
     stackoverflow: '',
     skype: '',
     telegram: '',
-    website: 'https://ramonpjls.github.io/', // Puedes añadir el sitio web de Ramon si lo tiene.
+    website: 'https://ramonpjls.github.io/', 
     phone: '',
     email: 'ramonpjls@gmail.com',
   },
@@ -72,14 +72,14 @@ const config = {
       link: '', // Agrega el enlace a la certificación si lo tienes en línea.
     },
   ],
-  education: [
-    {
-      institution: 'Pontificia Universidad Católica Madre y Maestra',
-      degree: 'Web Development Tecnico Superior',
-      from: '2021',
-      to: 'Actual',
-    },
-  ],
+  // education: [
+  //   {
+  //     institution: 'Pontificia Universidad Católica Madre y Maestra',
+  //     degree: 'Web Development Tecnico Superior',
+  //     from: '2021',
+  //     to: 'Actual',
+  //   },
+  // ],
 
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
