@@ -49,6 +49,20 @@ const config = {
   ],
   experiences: [
     {
+      company: 'CSQ non stop shops',
+      position: 'IT Analyst',
+      from: 'Jun/2018',
+      to: 'Dec/2020',
+      companyLink: 'https://www.linkedin.com/company/csq-non-stop-shops/posts/?feedView=all',
+    },
+    {
+      company: 'Prestige Media',
+      position: 'IT Analyst',
+      from: 'Dec/2020',
+      to: 'May/2021',
+      companyLink: 'https://www.linkedin.com/company/prestigemedia/',
+    },
+    {
       company: 'Cerveceria Nacional Dominicana',
       position: 'Web Developer',
       from: 'Jun/2021',
