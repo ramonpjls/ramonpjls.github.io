@@ -4,7 +4,7 @@ const config = {
   github: {
     username: 'ramonpjls', // Cambia esto al nombre de usuario de GitHub de Ramon
     sortBy: 'updated', // stars | updated
-    limit: 6, // How many projects to display.
+    limit: 8, // How many projects to display.
     exclude: {
       forks: true, // Forked projects will not be displayed if set to true.
       projects: ['ramonpjls.github.io', 'ramonpjls'], // Estos proyectos no se mostrarán. Ejemplo: ['mi-proyecto1', 'mi-proyecto2']
@@ -64,7 +64,7 @@ const config = {
     },
     {
       company: 'Cerveceria Nacional Dominicana',
-      position: 'Web Developer',
+      position: 'Full-stack developer',
       from: 'Jun/2021',
       to: 'Dec/2023',
       companyLink: '',
@@ -72,7 +72,7 @@ const config = {
     {
       company:
         'Oficina Gubernamental de la Tecnologia de la informacion y comunicacion (OGTIC)',
-      position: 'Web Developer',
+      position: 'Full-stack developer',
       from: 'Apr/2023',
       to: 'Actual',
       companyLink: 'https://ogtic.gob.do/', // Agrega el enlace de la empresa si lo tienes.
@@ -131,7 +131,7 @@ const config = {
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: true,
+    disableSwitch: false,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
@@ -187,11 +187,11 @@ const config = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ☕❤️`,
+  // footer: `Made with <a 
+  //     class="text-primary" href="https://github.com/arifszn/gitprofile"
+  //     target="_blank"
+  //     rel="noreferrer"
+  //   >GitProfile</a> and ☕❤️`,
 };
 
 export default config;
