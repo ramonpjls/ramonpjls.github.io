@@ -29,7 +29,7 @@ const config = {
     email: 'ramonpjls@gmail.com',
   },
   resume: {
-    fileUrl: 'https://drive.google.com/file/d/151c1zI0XX8Fj9XG2DA64oqM2Pvds6mDu/view?usp=drive_link', // Puedes proporcionar la URL de su currículum si lo tienes en línea.
+    fileUrl: 'https://drive.google.com/file/d/1RXLlPIIlQpY5t-a_v5i70r-u0P9NCJ2D/view?usp=sharing', // Puedes proporcionar la URL de su currículum si lo tienes en línea.
   },
   skills: [
     'JavaScript',
