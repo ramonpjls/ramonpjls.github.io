@@ -19,8 +19,8 @@ const config = {
     youtube: '',
     dribbble: '',
     behance: '',
-    medium: '',
-    dev: '',
+    medium: 'https://medium.com/@ramonpadillax',
+    dev: 'https://dev.to/ramonpadillax',
     stackoverflow: '',
     skype: '',
     telegram: '',
@@ -29,7 +29,7 @@ const config = {
     email: 'ramonpjls@gmail.com',
   },
   resume: {
-    fileUrl: 'https://drive.google.com/file/d/1RXLlPIIlQpY5t-a_v5i70r-u0P9NCJ2D/view?usp=sharing', // Puedes proporcionar la URL de su currículum si lo tienes en línea.
+    fileUrl: 'https://drive.google.com/file/d/10OS4Y3oYNarqY8ekMOPsPRCLJo4t2Ba-/view?usp=drive_link', // Puedes proporcionar la URL de su currículum si lo tienes en línea.
   },
   skills: [
     'JavaScript',
@@ -77,6 +77,14 @@ const config = {
       to: 'Actual',
       companyLink: 'https://ogtic.gob.do/', // Agrega el enlace de la empresa si lo tienes.
     },
+        {
+      company:
+        'Business Development Group S.A.',
+      position: 'Full-stack developer',
+      from: 'Jan/2025',
+      to: 'Dec/2025',
+      companyLink: 'https://bdgsa.net/', // Agrega el enlace de la empresa si lo tienes.
+    },
   ],
   certifications: [
     {
@@ -97,13 +105,13 @@ const config = {
 
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
-    // {
-    //   title: 'Project Name',
-    //   description:
-    //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-    //   imageUrl: 'https://via.placeholder.com/250x250',
-    //   link: 'https://example.com',
-    // },
+    {
+      title: 'NO-as-a-service (spanish fork)',
+      description:
+        'No-as-a-Service (NaaS) is a simple API that returns a random rejection reason. It is a Spanish fork of the original project, which at the time of development only returns responses in English.',
+      imageUrl: 'https://raw.githubusercontent.com/hotheadhacker/no-as-a-service/main/assets/imgs/naas-with-no-logo-bunny.png',
+      link: 'https://example.com',
+    },
     // {
     //   title: 'Project Name',
     //   description:
@@ -114,9 +122,9 @@ const config = {
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
-    // source: 'dev', // medium | dev
-    // username: 'arifszn', // to hide blog section, keep it empty
-    // limit: 2, // How many posts to display. Max is 10.
+    source: 'dev', // medium | dev
+    username: 'ramonpadillax', // to hide blog section, keep it empty
+    limit: 2, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
